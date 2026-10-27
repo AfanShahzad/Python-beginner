@@ -10,5 +10,8 @@
 - Lists : stores elements of different types
 - Tuples
 # pythonLec4.py
-- Lists : stores elements of different types
-- Tuples
+- Dictionary : stores data values in key:value pair
+- Sets : collection of unordered unique values
+# pythonLec5.py
+- Loops : used for repeat instructions
+
