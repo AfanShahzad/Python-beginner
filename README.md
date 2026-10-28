@@ -14,4 +14,8 @@
 - Sets : collection of unordered unique values
 # pythonLec5.py
 - Loops : used for repeat instructions
+# pythonLec6.py
+- Functions : block of statements that perform a specific task
+- Recursion : when a function calls itself
+
 

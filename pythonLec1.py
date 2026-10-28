@@ -1,3 +1,10 @@
+# input output
+# variables
+# data types
+# operators
+
+
+
 # output
 print("hello")
 print("hello1","hello2")
