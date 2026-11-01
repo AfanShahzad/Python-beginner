@@ -29,10 +29,12 @@
         ###### b: binary mode
         ###### t: text mode (default)
         ###### +: open a disk file for updating (reading & writing)
-# pythonLec8.py
+# pythonLec8.py and pythonLec9.py
 - OOP : using objects to map with real world problems
+    - Class : blueprint for creating object
+    - Objects : instances of class
     - 4 pillars : Abstraction,Encapsulation,Inheritance,Polymorphism
         - Abstraction : Hiding the implementation details of class and only showing the essential features to the users.
         - Encapsulation : Wrapping data and functions into a single unit (object)
-    - Class : blueprint for creating object
-    - Objects : instances of class
+        - Inheritance : When one class(child) inherits the properties and methods of another class(parent)
+        - Polymorphism : operator overloading (When the same operator is allowed to have diff meaning)

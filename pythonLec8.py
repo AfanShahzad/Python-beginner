@@ -1,6 +1,6 @@
 # OOP
 # 4 pillars : Abstraction,Encapsulation,Inheritance,Polymorphism
-
+# first two pillars
 
 # Class : blueprint for creating object
 # creating class
