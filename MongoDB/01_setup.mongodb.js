@@ -1,7 +1,10 @@
+// MongoDB setup script for the ecommerce database
 use("ecommerce");
 
+// drop the database if it exists
 db.dropDatabase();
 
+// insert products
 db.products.insertMany([
   {
     name: "Watch",
@@ -32,6 +35,7 @@ db.products.insertMany([
   },
 ]);
 
+// insert contacts
 db.contacts.insertMany([
   {
     name: "John Doe",
@@ -56,13 +60,14 @@ db.contacts.insertMany([
   },
 ]);
 
+// insert orders
 db.orders.insertMany([
   {
     productId: "ORD001",
     customerName: "John Doe",
     products: [
       { name: "Watch", price: 2500, quantity: 2 },
-      { name: "Shoes", price: 5000, quantity: 1 }
+      { name: "Shoes", price: 5000, quantity: 1 },
     ],
     totalPrice: 10000,
     status: "Pending",
