@@ -1,4 +1,4 @@
-from pymongo import MongoClient  # type: ignore[reportMissingImports]
+from pymongo import MongoClient  # type: ignore
 import json
 uri = "mongodb://localhost:27017/"
 
@@ -15,3 +15,5 @@ except Exception as e:
     
 db = client.get_database("ecommerce")
 print(json.dumps(list(db.sales.find()), indent=4, default=str))
+# for record in db.sales.find():
+#     print(record)
