@@ -46,7 +46,9 @@
 - Queries : find and filter documents
 - Indexes : improve query performance
 # PyMongo
+- `main.py`: verifies the MongoDB connection and reads records from `ecommerce.sales`
 - Python driver for connecting to and working with MongoDB
-- Connect to MongoDB using MongoClient
-- Select a database and collection
-- Insert, find, update, and delete documents
+- `1_Create_db_collection.py`: connects to the local MongoDB server, drops the `store` database, and inserts sample books into the `books` collection
+- `2_Read.py`: reads all books and demonstrates filtering by title, author, year range, and projection
+- `3_Update.py`: demonstrates single and multiple document updates, adding an array value, and assigning sequential `record_id` values
+- `4_Delete.py`: demonstrates deleting one matching book and deleting books by year
